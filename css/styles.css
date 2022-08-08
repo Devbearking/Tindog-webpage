@@ -1,0 +1,152 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  padding-bottom: 40px;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  justify-content: center;
+}
+p {
+  justify-content: center;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+#features {
+  background-color: white;
+  padding: 5% 15%;
+  position: relative;
+}
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#pricing {
+  padding: 125px;
+  text-align: center;
+}
+#footer {
+  margin: 3rem 15rem;
+  text-align: center;
+}
+#cta {
+  padding: 5% 15%;
+  background-color: #ff4c68;
+  text-align: center;
+}
+.cta-box {
+  margin: auto;
+  width: 50%;
+}
+.footer-icon {
+  margin: 20px 8px;
+}
+.footer-p {
+  color: #8f8f8f;
+}
+.price-box {
+  color: black;
+  padding-bottom: 8%;
+}
+.premium-price-box {
+  padding-bottom: 1%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+  padding-bottom: 120px;
+}
+.price-col {
+  padding: 3% 2%;
+}
+
+.navbar-brand {
+  font-size: 48px;
+}
+.nav-item {
+  font-size: 20px;
+}
+
+.navbar-brand {
+  margin-right: 80px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
+.navbar {
+  padding: 0 0 5rem;
+}
+.download-btn {
+  font-weight: 400;
+}
+.title-img {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+.icon {
+  color: #ef8172;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+.p-text {
+  color: #8f8f8f;
+}
+.features-text {
+  text-align: center;
+  padding: 5%;
+}
+
+.cta-text {
+  padding-bottom: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  color: #fff;
+}
+@media (max-width: 1000px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    width: 80%;
+    margin-top: 30px;
+  }
+  #title {
+    text-align: center;
+  }
+}
